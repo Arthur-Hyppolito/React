@@ -1,0 +1,28 @@
+/* App.css */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px; 
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #fff; /* Cor do texto */
+  background: linear-gradient(45deg, rgb(0, 0, 0), rgb(78, 81, 88)); /* Gradiente de fundo */
+  -webkit-background-clip: text; /* Usa o gradiente como cor do texto */
+  -webkit-text-fill-color: transparent; /* Torna o texto transparente para mostrar o gradiente */
+  text-align: center;
+  margin: 20px 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Sombra do texto */
+
+}
+
+.description {
+  font-size: 1.2rem; /* Ajuste o tamanho conforme necessário */
+  color: #555; /* Cor do texto da descrição */
+  margin-bottom: 2rem; /* Espaçamento abaixo da descrição */
+}
